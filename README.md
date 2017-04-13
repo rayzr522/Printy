@@ -10,9 +10,9 @@ Printy | ANSI | Description
 `#r#` | `\033[0m` | Resets all formatting
 `#b#` | `\033[1m` | Enables bold text
 `#0#` | `\033[30m` | Sets the foreground color to black
-`#1#` | `\033[30m` | Sets the foreground color to red
-`#2#` | `\033[30m` | Sets the foreground color to green
-`#3#` | `\033[30m` | Sets the foreground color to yellow
+`#1#` | `\033[31m` | Sets the foreground color to red
+`#2#` | `\033[32m` | Sets the foreground color to green
+`#3#` | `\033[33m` | Sets the foreground color to yellow
 `#4#` | `\033[30m` | Sets the foreground color to blue
 `#5#` | `\033[30m` | Sets the foreground color to magenta
 `#6#` | `\033[30m` | Sets the foreground color to cyan
