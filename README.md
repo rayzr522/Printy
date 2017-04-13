@@ -13,11 +13,11 @@ Printy | ANSI | Description
 `#1#` | `\033[31m` | Sets the foreground color to red
 `#2#` | `\033[32m` | Sets the foreground color to green
 `#3#` | `\033[33m` | Sets the foreground color to yellow
-`#4#` | `\033[30m` | Sets the foreground color to blue
-`#5#` | `\033[30m` | Sets the foreground color to magenta
-`#6#` | `\033[30m` | Sets the foreground color to cyan
-`#7#` | `\033[30m` | Sets the foreground color to white
-`#9#` | `\033[30m` | Sets the foreground color to the default
+`#4#` | `\033[34m` | Sets the foreground color to blue
+`#5#` | `\033[35m` | Sets the foreground color to magenta
+`#6#` | `\033[36m` | Sets the foreground color to cyan
+`#7#` | `\033[37m` | Sets the foreground color to white
+`#9#` | `\033[39m` | Sets the foreground color to the default
 
 ## Notes
 This is a heavy WIP project, and almost everything about this is subject to change. As of writing this README, this is only my second day using the Go programming language.
