@@ -1,4 +1,4 @@
-![Example](res/screenshot.png)
+![Example](res/example.png)
 
 # Printy
 Printy is an improvement on 'echo' that parses color codes and converts them to ANSI codes. Color codes are (currently) in the format of `#[0-9, b or r]#`. The numeric color codes set the foreground color, `b` enables bold text, and `r` resets.
