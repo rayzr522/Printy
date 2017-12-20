@@ -3,9 +3,11 @@ cd "$(dirname "$0")/.."
 
 source settings.cfg
 
-ARCH="$(uname | tr [:upper:] [:lower:])"
+ARCH="$(uname | tr "[:upper:]" "[:lower:]")"
 FILE_NAME="$NAME-$ARCH-$VERSION"
 OUTPUT="dist/$FILE_NAME"
+
+set -e
 
 echo -n "Cleaning up old builds... "
 rm -rf ./dist
